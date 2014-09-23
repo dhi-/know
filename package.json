@@ -1,0 +1,30 @@
+{
+  "name": "know",
+  "version": "0.0.1",
+  "description": "A TYPE inference engine for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhi-/know.git"
+  },
+  "keywords": [
+    "js",
+    "auto-complete",
+    "inference"
+  ],
+  "author": "dhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhi-/know/issues"
+  },
+  "homepage": "https://github.com/dhi-/know",
+  "dependencies": {
+    "ast-types": "^0.4.9",
+    "esprima": "^1.2.2",
+    "lodash": "^2.4.1",
+    "verbal-expressions": "^0.1.2"
+  }
+}
